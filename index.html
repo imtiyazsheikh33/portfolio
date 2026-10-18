@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Md Imtiyaz Ahmad | Java Backend Developer</title>
+<meta name="description" content="Md Imtiyaz Ahmad — Java Backend Developer specializing in Spring Boot, REST APIs, and database-driven applications. View projects, skills, and get in touch.">
+<meta name="keywords" content="Java Backend Developer, Spring Boot, REST API, Md Imtiyaz Ahmad, Software Engineer Portfolio">
+<meta name="author" content="Md Imtiyaz Ahmad">
+<meta property="og:title" content="Md Imtiyaz Ahmad | Java Backend Developer">
+<meta property="og:description" content="Portfolio of Md Imtiyaz Ahmad, a Java Backend Developer building reliable, scalable server-side systems.">
+<meta property="og:type" content="website">
+
+<!-- Google Fonts: Poppins (display) + Inter (body) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== Loading Screen ===== -->
+<div id="loader" class="loader" aria-hidden="true">
+  <div class="loader-console">
+    <span class="loader-prompt">$</span>
+    <span class="loader-text"></span><span class="loader-cursor">&#9608;</span>
+  </div>
+</div>
+
+<!-- ===== Back to top ===== -->
+<button id="backToTop" class="back-to-top" aria-label="Back to top">
+  <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+<!-- ===== Navbar ===== -->
+<header class="navbar" id="navbar">
+  <div class="container nav-inner">
+    <a href="#home" class="logo">
+      <span class="logo-bracket"></span> Md Imtiyaz Ahmad <span class="logo-bracket"></span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link active" data-nav>Home</a>
+      <a href="#about" class="nav-link" data-nav>About</a>
+      <a href="#skills" class="nav-link" data-nav>Skills</a>
+      <a href="#projects" class="nav-link" data-nav>Projects</a>
+      <a href="#experience" class="nav-link" data-nav>Experience</a>
+      <a href="#certifications" class="nav-link" data-nav>Certifications</a>
+      <a href="#services" class="nav-link" data-nav>Services</a>
+      <a href="#contact" class="nav-link" data-nav>Contact</a>
+    </nav>
+
+    <a href="#contact" class="btn btn-primary nav-cta">Hire Me</a>
+
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- ===== Home / Hero ===== -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text reveal">
+        <!-- <p class="eyebrow">// 01 introduction</p> -->
+        <h1 class="hero-title">
+          Hi, I'm <span class="text-gradient">Md Imtiyaz Ahmad</span>
+        </h1>
+        <h2 class="hero-role">
+          <span id="typedText"></span><span class="type-cursor">|</span>
+        </h2>
+        <p class="hero-desc">
+          I design and build reliable server-side systems — clean REST APIs, well-structured
+          databases, and Spring Boot applications that hold up under real-world load. I care about
+          readable code as much as working code.
+        </p>
+        <div class="hero-actions">
+          <a href="#" class="btn btn-primary" download>
+            <i class="fa-solid fa-download"></i> Download Resume
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            <i class="fa-regular fa-paper-plane"></i> Contact Me
+          </a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://www.linkedin.com/in/md-imtiyaz-ahmad-878359376/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://github.com/imtiyazsheikh33" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="mailto:imtiyaz.dev@example.com" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="hero-photo-wrap">
+          <div class="hero-photo">
+            <span><img src="WhatsApp Image 2026-10-18 at 9.57.11 PM.jpeg" alt="Image"></span>
+          </div>
+          <div class="orbit-ring"></div>
+        </div>
+
+        <!-- <div class="code-card" aria-hidden="true">
+          <div class="code-card-head">
+            <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+            <span class="code-card-title">Developer.java</span>
+          </div>
+          <pre class="code-card-body"><code><span class="c-key">public class</span> <span class="c-class">Developer</span> {
+    <span class="c-key">private</span> String name = <span class="c-str">" Md Imtiyaz Ahmad"</span>;
+    <span class="c-key">private</span> String role = <span class="c-str">"Backend Engineer"</span>;
+
+    <span class="c-key">public void</span> <span class="c-fn">build</span>() {
+        <span class="c-fn">stack</span>.push(<span class="c-str">"Java"</span>, <span class="c-str">"Spring Boot"</span>);
+        <span class="c-fn">design</span>(<span class="c-str">"REST APIs"</span>);
+        <span class="c-fn">optimize</span>(<span class="c-str">"Databases"</span>);
+    }
+}</code></pre>
+        </div>
+      </div>
+    </div> -->
+    <a href="#about" class="scroll-indicator" aria-label="Scroll to About section">
+      <i class="fa-solid fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- ===== About ===== -->
+  <section id="about" class="section about">
+    <div class="container">
+      <!-- <p class="eyebrow center reveal">// 02 about me</p> -->
+      <h2 class="section-title center reveal">Getting to Know Me</h2>
+
+      <div class="about-grid">
+        <div class="about-card reveal">
+          <div class="about-icon"><i class="fa-solid fa-user"></i></div>
+          <h3>Who I Am</h3>
+          <p>
+            I'm Md Imtiyaz Ahmad, a Java Backend Developer who enjoys turning business problems
+            into clean, dependable server-side systems. I'm most at home working through data
+            models, API contracts, and the logic that keeps an application correct under pressure.
+          </p>
+        </div>
+
+        <div class="about-card reveal">
+          <div class="about-icon"><i class="fa-solid fa-bullseye"></i></div>
+          <h3>Career Objective</h3>
+          <p>
+            To grow as a backend engineer within a team that values solid engineering practices —
+            contributing to scalable Spring Boot services, well-designed APIs, and dependable
+            database systems, while continuously sharpening my problem-solving skills.
+          </p>
+        </div>
+
+        <div class="about-card reveal">
+          <div class="about-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+          <h3>Education</h3>
+          <p>
+            Bachelor's degree in Computer Science / Information Technology, with coursework
+            covering Data Structures &amp; Algorithms, Database Management Systems, Object-Oriented
+            Programming, and Software Engineering fundamentals.
+          </p>
+        </div>
+
+        <div class="about-card reveal">
+          <div class="about-icon"><i class="fa-solid fa-server"></i></div>
+          <h3>Why Backend?</h3>
+          <p>
+            I'm drawn to the backend because it's where the real rules of an application live —
+            data integrity, performance, and system design. I enjoy the discipline of building
+            things that work quietly and correctly, every single time.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Skills ===== -->
+  <section id="skills" class="section skills">
+    <div class="container">
+      <!-- <p class="eyebrow center reveal">// 03 skills</p> -->
+      <h2 class="section-title center reveal">Technical Skills</h2>
+      <p class="section-subtitle center reveal">Technologies and tools I use to design, build, and ship backend systems.</p>
+
+      <div class="skills-grid">
+
+        <div class="skill-group reveal">
+          <h3><i class="fa-solid fa-code"></i> Programming Languages</h3>
+          <div class="skill-bar-item">
+            <div class="skill-bar-label"><span>Java</span><span>90%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" data-percent="90"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-label"><span>SQL</span><span>85%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" data-percent="85"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-label"><span>JavaScript</span><span>70%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" data-percent="70"></div></div>
+          </div>
+        </div>
+
+        <div class="skill-group reveal">
+          <h3><i class="fa-solid fa-layer-group"></i> Backend Technologies</h3>
+          <div class="skill-bar-item">
+            <div class="skill-bar-label"><span>Spring Boot</span><span>85%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" data-percent="85"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-label"><span>REST API</span><span>88%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" data-percent="88"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-label"><span>Hibernate</span><span>75%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" data-percent="75"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-label"><span>JDBC</span><span>80%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" data-percent="80"></div></div>
+          </div>
+        </div>
+
+        <div class="skill-group reveal">
+          <h3><i class="fa-solid fa-database"></i> Database</h3>
+          <div class="skill-bar-item">
+            <div class="skill-bar-label"><span>MySQL</span><span>88%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" data-percent="88"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-label"><span>PostgreSQL</span><span>75%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" data-percent="75"></div></div>
+          </div>
+        </div>
+
+        <div class="skill-group reveal">
+          <h3><i class="fa-solid fa-toolbox"></i> Tools</h3>
+          <div class="tool-badges">
+            <span class="badge"><i class="fa-brands fa-git-alt"></i> Git</span>
+            <span class="badge"><i class="fa-brands fa-github"></i> GitHub</span>
+            <span class="badge"><i class="fa-solid fa-code"></i> VS Code</span>
+            <span class="badge"><i class="fa-solid fa-feather-pointed"></i> IntelliJ IDEA</span>
+            <span class="badge"><i class="fa-solid fa-paper-plane"></i> Postman</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal">
+          <h3><i class="fa-solid fa-brain"></i> Other Skills</h3>
+          <div class="tool-badges">
+            <span class="badge">OOP</span>
+            <span class="badge">DSA</span>
+            <span class="badge">Multithreading</span>
+            <span class="badge">Microservices Basics</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Projects ===== -->
+  <section id="projects" class="section projects">
+    <div class="container">
+      <!-- <p class="eyebrow center reveal">// 04 projects</p> -->
+      <h2 class="section-title center reveal">Featured Projects</h2>
+      <p class="section-subtitle center reveal">A few things I've built while learning and applying backend engineering concepts.</p>
+
+      <div class="project-filters reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="java">Java</button>
+        <button class="filter-btn" data-filter="ai">AI / Python</button>
+        <button class="filter-btn" data-filter="database">Database</button>
+      </div>
+
+      <div class="project-grid">
+
+        <article class="project-card reveal" data-category="ai">
+          <div class="project-thumb project-thumb-1">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="project-body">
+            <h3>AI Personal Search Engine</h3>
+            <p>An offline personal search engine with OCR support and PDF search, powered by a FastAPI backend and a lightweight HTML/CSS/JS frontend for fast local retrieval.</p>
+            <div class="project-tags">
+              <span>FastAPI</span><span>OCR</span><span>PDF Search</span><span>HTML/CSS/JS</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-sm btn-outline"><i class="fa-brands fa-github"></i> GitHub</a>
+              <a href="#" class="btn btn-sm btn-primary"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="java database">
+          <div class="project-thumb project-thumb-2">
+            <i class="fa-solid fa-book"></i>
+          </div>
+          <div class="project-body">
+            <h3>Library Management System</h3>
+            <p>A desktop-style library management application handling book inventory, member records, and issue/return workflows, backed by JDBC and a MySQL database.</p>
+            <div class="project-tags">
+              <span>Java</span><span>JDBC</span><span>MySQL</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-sm btn-outline"><i class="fa-brands fa-github"></i> GitHub</a>
+              <a href="#" class="btn btn-sm btn-primary"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="java">
+          <div class="project-thumb project-thumb-3">
+            <i class="fa-solid fa-user-graduate"></i>
+          </div>
+          <div class="project-body">
+            <h3>Student Management System</h3>
+            <p>A console-based application for managing student records — built to practice core object-oriented programming concepts like encapsulation, inheritance, and polymorphism.</p>
+            <div class="project-tags">
+              <span>Java</span><span>OOP Concepts</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-sm btn-outline"><i class="fa-brands fa-github"></i> GitHub</a>
+              <a href="#" class="btn btn-sm btn-primary"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Experience ===== -->
+  <section id="experience" class="section experience">
+    <div class="container">
+      <!-- <p class="eyebrow center reveal">// 05 experience</p> -->
+      <h2 class="section-title center reveal">My Learning Journey</h2>
+      <p class="section-subtitle center reveal">A timeline of how I built my backend engineering foundation.</p>
+
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-tag">Foundation</span>
+            <h3>Java Backend Learning Journey</h3>
+            <p>Started with Java fundamentals, OOP principles, and data structures &amp; algorithms — building a strong base for backend problem-solving.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-tag">Framework</span>
+            <h3>Spring Boot Development</h3>
+            <p>Learned Spring Boot's core concepts — dependency injection, application configuration, and layered architecture — to build maintainable services.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-tag">Integration</span>
+            <h3>REST API Development</h3>
+            <p>Designed and consumed RESTful APIs, handling request validation, status codes, and JSON payloads with tools like Postman for testing.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-tag">Persistence</span>
+            <h3>Database Management</h3>
+            <p>Worked with MySQL and PostgreSQL, writing efficient queries and connecting applications through JDBC and Hibernate ORM.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Certifications ===== -->
+  <section id="certifications" class="section certifications">
+    <div class="container">
+      <!-- <p class="eyebrow center reveal">// 06 certifications</p> -->
+      <h2 class="section-title center reveal">Certifications</h2>
+
+      <div class="cert-grid">
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fa-brands fa-java"></i></div>
+          <h3>Java Programming</h3>
+          <p>Core and advanced Java concepts including OOP, collections, and exception handling.</p>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fa-solid fa-database"></i></div>
+          <h3>SQL Database</h3>
+          <p>Relational database design, joins, indexing, and query optimization fundamentals.</p>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fa-solid fa-leaf"></i></div>
+          <h3>Spring Boot</h3>
+          <p>Building production-style REST services with Spring Boot and Spring Data.</p>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fa-solid fa-server"></i></div>
+          <h3>Backend Development</h3>
+          <p>End-to-end backend application development, API design, and deployment basics.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Services ===== -->
+  <section id="services" class="section services">
+    <div class="container">
+      <!-- <p class="eyebrow center reveal">// 07 services</p> -->
+      <h2 class="section-title center reveal">What I Can Do</h2>
+      <p class="section-subtitle center reveal">Backend-focused services for products, startups, and freelance projects.</p>
+
+      <div class="service-grid">
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-server"></i></div>
+          <h3>Backend Development</h3>
+          <p>Designing robust, maintainable server-side applications using Java and Spring Boot best practices.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-plug"></i></div>
+          <h3>REST API Development</h3>
+          <p>Building clean, well-documented RESTful APIs that are easy to integrate and scale.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-diagram-project"></i></div>
+          <h3>Database Design</h3>
+          <p>Structuring normalized, efficient database schemas for MySQL and PostgreSQL.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fa-brands fa-java"></i></div>
+          <h3>Java Application Development</h3>
+          <p>Developing desktop and console-based Java applications with clean OOP architecture.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <!-- <p class="eyebrow center reveal">// 08 contact</p> -->
+      <h2 class="section-title center reveal">Let's Work Together</h2>
+      <p class="section-subtitle center reveal">Have a role, a project, or just a question? I'd love to hear from you.</p>
+
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <div class="contact-info-item">
+            <i class="fa-regular fa-envelope"></i>
+            <div>
+              <span>Email</span>
+              <a href="mailto:imtiyaz.dev@example.com">imtiyaz.dev@example.com</a>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <i class="fa-brands fa-linkedin-in"></i>
+            <div>
+              <span>LinkedIn</span>
+              <a href="https://linkedin.com/" target="_blank" rel="noopener">linkedin.com/in/imtiyazahmad</a>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <i class="fa-brands fa-github"></i>
+            <div>
+              <span>GitHub</span>
+              <a href="https://github.com/" target="_blank" rel="noopener">github.com/imtiyazahmad</a>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+              <span>Location</span>
+              <a href="#">India</a>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name">
+              <span class="error-msg" data-error="name"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com">
+              <span class="error-msg" data-error="email"></span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="What's this about?">
+            <span class="error-msg" data-error="subject"></span>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me a bit about the opportunity or project..."></textarea>
+            <span class="error-msg" data-error="message"></span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">
+            <i class="fa-regular fa-paper-plane"></i> Send Message
+          </button>
+          <p class="form-success" id="formSuccess">Thanks! Your message has been noted — I'll get back to you soon.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== Footer ===== -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a href="#home" class="logo">
+        <span class="logo-bracket"></span>Imtiyaz sheikh <span class="logo-bracket"></span>
+      </a>
+      <p>Java Backend Developer building reliable, scalable server-side systems.</p>
+    </div>
+
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="footer-socials">
+      <h4>Connect</h4>
+      <div class="social-icons">
+        <a href="https://linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="mailto:imtiyaz.dev@example.com" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; <span id="year"></span> Md Imtiyaz Ahmad. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
